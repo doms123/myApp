@@ -6,14 +6,38 @@
     <meta name="format-detection" content="telephone=no" />
     <meta name="msapplication-tap-highlight" content="no" />
     <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
-    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline' gap:; style-src 'self' 'unsafe-inline'; media-src *" />
     <title>My App</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="cordova.js"></script>
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/routes.js"></script>
+    <script src="js/script.js"></script>
 </head>
 
 <body>
-    <h1>My App works123!</h1>
+  	<nav class="light-blue lighten-1" role="navigation">
+  	    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">MyApp</a>
+  	      	<ul class="right hide-on-med-and-down">
+  	        	<li><a href="#dashboard">Dashboard</a></li>
+  	        	<li><a href="#profile">Profile</a></li>
+  	        	<li><a href="#settings">Settings</a></li>
+  	      	</ul>
 
-    <script type="text/javascript" src="cordova.js"></script>
+  	      	<ul id="nav-mobile" class="side-nav">
+  	        	<li><a href="#dashboard">Dashboard</a></li>
+  	        	<li><a href="#profile">Profile</a></li>
+  	        	<li><a href="#settings">Settings</a></li>
+  	      	</ul>
+  	      	<a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+  	    </div>
+  	</nav>
+
+  	<div class="main container">
+  		
+  	</div>
 </body>
 
 </html>
